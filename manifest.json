@@ -1,0 +1,12 @@
+{
+  "name": "MTU COVID Form Filler",
+  "version": "1.0",
+  "description": "Automatically fills out the COVID form and redirects you to Canvas whenever access is blocked.",
+  "manifest_version": 2,
+  "content_scripts": [
+  {
+    "matches": ["https://www.banweb.mtu.edu/owassb/symptom_form.*", "https://sso.mtu.edu/cas/canvas.html"],
+    "js": ["COVID-Redirector.js"]
+  }
+  ]
+}
