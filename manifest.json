@@ -1,6 +1,6 @@
 {
   "name": "MTU COVID Form Filler",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Automatically fills out the COVID form and redirects you to Canvas whenever access is blocked.",
   "manifest_version": 2,
   "content_scripts": [
